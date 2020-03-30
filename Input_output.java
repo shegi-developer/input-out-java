@@ -8,7 +8,6 @@ public class Input_output {
 
    
     public static void main(String[] args) {
-       
         //Membuat objek inputan dari kelas scanneer
         Scanner input = new Scanner(System.in);
         
@@ -41,9 +40,9 @@ public class Input_output {
         String namaibu = input.nextLine();
     
           System.out.println("## PENDIDIKAN :");
-          System.out.println("- SD");
-          System.out.println("- SMP");
-          System.out.println("- SMA");
+          System.out.println(" SD");
+          System.out.println(" SMP");
+          System.out.println(" SMA");
           System.out.print("## Ijasah terakhir = ");
           
            //membuat variabel untuk menyimpan inputan pendidikan dan memanggil objek input
